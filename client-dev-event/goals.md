@@ -1,0 +1,3 @@
+- [ ] be able to load any model
+- [ ] have simple grabbable physics/momentum
+- [ ] some other cool stuff?? #todo
