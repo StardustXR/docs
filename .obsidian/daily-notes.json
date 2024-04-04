@@ -1,6 +1,6 @@
 {
   "folder": "daily notes",
   "template": "templates/daily check-in",
-  "autorun": true,
+  "autorun": false,
   "format": "[check-in -] YYYY-MM-DD"
 }

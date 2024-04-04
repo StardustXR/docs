@@ -1,5 +1,7 @@
 {
   "snapToObjects": true,
   "snapToGrid": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "cardLabelVisibility": "never",
+  "defaultModDragBehavior": "webpage"
 }
