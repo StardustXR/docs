@@ -1,3 +1,8 @@
 [
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "github-embeds",
+  "github-sync",
+  "canvas-mindmap",
+  "obsidian-file-color",
+  "obsidian-git"
 ]

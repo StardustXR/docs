@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"a8351fae6aeab39e","type":"text","text":"# Reference","x":-560,"y":-1560,"width":1120,"height":820},
+		{"id":"c9c4ed87881d3fd2","type":"file","file":"design/res/GKTgDpMXgAA54-q.webp","x":-520,"y":-1460,"width":620,"height":349},
+		{"id":"152ca174b461d139","type":"text","text":"Synoptic phosphorescent diagrams are high contrast and easy to parse","x":-520,"y":-1111,"width":620,"height":56},
+		{"id":"58cd48b6129f9a7c","type":"file","file":"design/res/20230801_104508.webp","x":120,"y":-1460,"width":400,"height":551},
+		{"id":"adf1974423355c12","type":"text","text":"Mapping augmentations to surfaces works across AR and VR","x":120,"y":-909,"width":400,"height":66},
+		{"id":"315aefc78efe9495","type":"text","text":"Different patterns/textures can signify different interaction","x":120,"y":-843,"width":400,"height":63},
+		{"id":"eebdd708f503da7a","type":"text","text":"# Implementations","x":-560,"y":-700,"width":1200,"height":720},
+		{"id":"46cee65b91af2fed","x":-520,"y":-95,"width":711,"height":50,"type":"text","text":"this button uses only line drawing making it very dynamic and easy to render"},
+		{"id":"aed15fa7258488b2","x":-520,"y":-150,"width":711,"height":55,"type":"text","text":"objects can't be physically pushed back in XR (without impractical haptics)"},
+		{"id":"1b264facdc465b72","x":-520,"y":-600,"width":711,"height":400,"type":"file","file":"design/res/intangible_button.mp4"},
+		{"id":"8c44236c50e47617","x":220,"y":-600,"width":400,"height":400,"type":"file","file":"design/res/StereoKitGripSurface.gif"},
+		{"id":"44e9f18467945c99","x":-520,"y":-200,"width":711,"height":50,"type":"text","text":"https://github.com/StardustXR/molecules/blob/main/examples/button.rs"},
+		{"id":"a6372c0d13e1a6c9","x":220,"y":-200,"width":400,"height":78,"type":"text","text":"dot pattern gives a sense of a grippy texture while remaining high contrast"},
+		{"id":"7243be18a259697e","type":"file","file":"design/solid aurora/design philosophy.md","x":664,"y":-1423,"width":548,"height":275},
+		{"id":"09e2a80a9007371a","x":-520,"y":-1055,"width":620,"height":60,"type":"text","text":"Slightly noisy surface makes high contrast easier on the eyes"},
+		{"id":"230110a27b1c63c8","x":644,"y":-850,"width":250,"height":60,"type":"text","text":"PBR objects"},
+		{"id":"de9db1233b8306dc","x":962,"y":-850,"width":250,"height":60,"type":"text","text":"real objects"},
+		{"id":"0e8141b5c5882ba1","x":808,"y":-1080,"width":250,"height":60,"type":"text","text":"Surface augmentations"},
+		{"id":"295f07ada3d5ac55","x":-520,"y":-843,"width":440,"height":63,"type":"text","text":"https://aesthetics.fandom.com/wiki/Glowwave"}
+	],
+	"edges":[
+		{"id":"d6247e0bf0646147","fromNode":"0e8141b5c5882ba1","fromSide":"bottom","toNode":"230110a27b1c63c8","toSide":"top","label":"map onto"},
+		{"id":"00850a84b84c81b5","fromNode":"0e8141b5c5882ba1","fromSide":"bottom","toNode":"de9db1233b8306dc","toSide":"top","label":"map onto"}
+	]
+}
