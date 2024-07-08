@@ -1,0 +1,14 @@
+- [ ] grab+drop nodes
+- [ ] link mode (force directed graph with nodes having their fields sticking out of them like https://github.com/samuelmtimbo/unit)
+	- [ ] boards for organizing things spatially (use zones likely)
+	- [ ] spatially link parents with no cycles (all spatial children are disabled when linking parents)
+	- [ ] indirect gizmo for transform movement (think bonelab dev gun)
+	- [ ] code node-based system plugged right into properties (e.g. dreams) with state as input/output
+		- [ ] callbacks are piped out to handle in code (see geometry nodes)
+		- [ ] math nodes + tweens
+		- [ ] all logic is probably best handled in code for now
+		- [ ] nodegroups and nesting (maybe compress boards?)
+- [ ] arrange mode
+	- [ ] move stuff spatially into the right places
+- [ ] scene that has string IDs you can try to get by node type and it returns `Option<&N>` for each one
+- [ ] scenes can be loaded in scenes (hash state and node order)

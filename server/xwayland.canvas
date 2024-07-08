@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"eeff8fe08abc3e53","type":"text","text":"X11 WM Socket","x":-220,"y":-60,"width":180,"height":60,"color":"4"},
+		{"id":"dc46d0b570b77165","type":"text","text":"X Wayland socket","x":-475,"y":-60,"width":200,"height":60,"color":"4"},
+		{"id":"261a3cf5b4b17d77","type":"text","text":"Xwayland instance","x":-365,"y":-260,"width":220,"height":60},
+		{"id":"89f115f27f7201a8","type":"text","text":"X listening socket","x":-355,"y":-360,"width":200,"height":60,"color":"4"},
+		{"id":"418615cbcbaab1a2","type":"text","text":"X WM","x":-187,"y":80,"width":115,"height":60},
+		{"id":"bca66dfa82ad27e8","type":"text","text":"Panel Item","x":-203,"y":200,"width":147,"height":60},
+		{"id":"cae96f074ddd340f","type":"text","text":"X client","x":-380,"y":-520,"width":125,"height":60},
+		{"id":"f11b8dd82d88cd02","type":"text","text":"X client","x":-255,"y":-520,"width":120,"height":60},
+		{"id":"065c1eeb9c31b332","x":100,"y":-30,"width":280,"height":103,"type":"text","text":"override redirect window spawns on output that window is on"},
+		{"id":"914e30dacb00070d","x":100,"y":-440,"width":281,"height":50,"type":"text","text":"X client connects"},
+		{"id":"a3729aba2a837fc6","x":101,"y":-364,"width":280,"height":94,"type":"text","text":"new xwayland process spawns and client is attached to it"},
+		{"id":"07fa7081b74eab56","x":100,"y":-250,"width":281,"height":100,"type":"text","text":"x client makes normal window and gives it geometry"},
+		{"id":"ceccb7ad24c99197","x":101,"y":-130,"width":280,"height":80,"type":"text","text":"window is put on separate output, treat as toplevel"},
+		{"id":"daf8617aaf73ed0a","x":100,"y":100,"width":280,"height":127,"type":"text","text":"get relative coordinates between redirect window and only normal one, treat it as child"}
+	],
+	"edges":[
+		{"id":"0b68314629eb4464","fromNode":"cae96f074ddd340f","fromSide":"bottom","toNode":"89f115f27f7201a8","toSide":"top"},
+		{"id":"5d04e4fb598d5605","fromNode":"261a3cf5b4b17d77","fromSide":"bottom","toNode":"eeff8fe08abc3e53","toSide":"top"},
+		{"id":"342916b672f13cbb","fromNode":"261a3cf5b4b17d77","fromSide":"bottom","toNode":"dc46d0b570b77165","toSide":"top"},
+		{"id":"b7b4fabbc5adcaa0","fromNode":"f11b8dd82d88cd02","fromSide":"bottom","toNode":"89f115f27f7201a8","toSide":"top"},
+		{"id":"927097541efad664","fromNode":"418615cbcbaab1a2","fromSide":"top","toNode":"eeff8fe08abc3e53","toSide":"bottom","label":"routes messages to"},
+		{"id":"2dd27f914611e4ab","fromNode":"418615cbcbaab1a2","fromSide":"bottom","toNode":"bca66dfa82ad27e8","toSide":"top","label":"makes"},
+		{"id":"4e122eedce6cfe3f","fromNode":"89f115f27f7201a8","fromSide":"bottom","toNode":"261a3cf5b4b17d77","toSide":"top"},
+		{"id":"6068114d32e298cd","fromNode":"914e30dacb00070d","fromSide":"bottom","toNode":"a3729aba2a837fc6","toSide":"top"},
+		{"id":"31a5654429e7afe0","fromNode":"a3729aba2a837fc6","fromSide":"bottom","toNode":"07fa7081b74eab56","toSide":"top"},
+		{"id":"54869b7ffb8479bd","fromNode":"07fa7081b74eab56","fromSide":"bottom","toNode":"ceccb7ad24c99197","toSide":"top"},
+		{"id":"f46a1b1ffae5f7ec","fromNode":"ceccb7ad24c99197","fromSide":"bottom","toNode":"065c1eeb9c31b332","toSide":"top"},
+		{"id":"243554f804fe9f6b","fromNode":"065c1eeb9c31b332","fromSide":"bottom","toNode":"daf8617aaf73ed0a","toSide":"top"}
+	]
+}
