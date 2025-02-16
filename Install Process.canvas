@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"053773b98702c24e","x":-385,"y":-560,"width":177,"height":60,"type":"text","text":"Start Here"},
+		{"id":"4712a341c4253547","x":-435,"y":-440,"width":275,"height":60,"type":"text","text":"Want to use or develop?"},
+		{"id":"941f7cf8edcc95d0","x":-590,"y":-220,"width":250,"height":60,"type":"text","text":"Manual Install"},
+		{"id":"f68af8b8c07b5315","x":-30,"y":-220,"width":250,"height":60,"type":"text","text":"What Distro?"},
+		{"id":"81990eb08d751836","x":-259,"y":0,"width":329,"height":60,"type":"text","text":"`dnf group install stardust-xr`"},
+		{"id":"7df8acdda8c10ace","x":-589,"y":0,"width":250,"height":60,"type":"text","text":"Make Startup Script"},
+		{"id":"02870af0462bec88","x":-611,"y":-120,"width":293,"height":64,"type":"text","text":"`cargo build` clients/server"},
+		{"id":"6345e36c50971cc0","type":"text","text":"`paru stardust-xr-*`","x":120,"y":0,"width":240,"height":60},
+		{"id":"ea4ff7e66bfb2da2","x":400,"y":0,"width":250,"height":60,"type":"text","text":"Nix flakes in repos"},
+		{"id":"21c8b1f6f49686a6","x":-30,"y":340,"width":250,"height":60,"type":"text","text":"Installed"},
+		{"id":"586ff8761cf55d59","x":880,"y":260,"width":250,"height":60,"type":"text","text":"Want it as an Overlay?"},
+		{"id":"c9f9d11aca11ac2c","x":-30,"y":500,"width":250,"height":60,"type":"text","text":"Use telescope?"}
+	],
+	"edges":[
+		{"id":"2a8455e7cb2ffe9b","fromNode":"f68af8b8c07b5315","fromSide":"bottom","toNode":"81990eb08d751836","toSide":"top","label":"Fedora/Ultramarine"},
+		{"id":"aacb6b9309be38b1","fromNode":"053773b98702c24e","fromSide":"bottom","toNode":"4712a341c4253547","toSide":"top"},
+		{"id":"6a9d115fa3a783a7","fromNode":"4712a341c4253547","fromSide":"bottom","toNode":"f68af8b8c07b5315","toSide":"top","label":"Use"},
+		{"id":"c138e43a528c2b4f","fromNode":"4712a341c4253547","fromSide":"bottom","toNode":"941f7cf8edcc95d0","toSide":"top","label":"Develop"},
+		{"id":"c4ac9dc06e610b4e","fromNode":"81990eb08d751836","fromSide":"bottom","toNode":"21c8b1f6f49686a6","toSide":"top"},
+		{"id":"0bbce4a139a95d3c","fromNode":"f68af8b8c07b5315","fromSide":"bottom","toNode":"6345e36c50971cc0","toSide":"top","label":"Arch"},
+		{"id":"71c70e9d143384e6","fromNode":"f68af8b8c07b5315","fromSide":"left","toNode":"941f7cf8edcc95d0","toSide":"right","label":"Other"},
+		{"id":"6f475a3c9fbd04d7","fromNode":"f68af8b8c07b5315","fromSide":"right","toNode":"ea4ff7e66bfb2da2","toSide":"top","label":"NixOS"},
+		{"id":"5703ffa5706ced79","fromNode":"ea4ff7e66bfb2da2","fromSide":"bottom","toNode":"21c8b1f6f49686a6","toSide":"top"},
+		{"id":"afbe24616eb65e31","fromNode":"6345e36c50971cc0","fromSide":"bottom","toNode":"21c8b1f6f49686a6","toSide":"top"},
+		{"id":"85dbeb9e0a517018","fromNode":"941f7cf8edcc95d0","fromSide":"bottom","toNode":"02870af0462bec88","toSide":"top"},
+		{"id":"3fbdc158dd5f9402","fromNode":"7df8acdda8c10ace","fromSide":"bottom","toNode":"21c8b1f6f49686a6","toSide":"top"},
+		{"id":"509f0f5850c575bd","fromNode":"02870af0462bec88","fromSide":"bottom","toNode":"7df8acdda8c10ace","toSide":"top"}
+	]
+}

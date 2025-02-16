@@ -81,8 +81,8 @@ before headset:
 
 with headset:
 - [x] upside down issue ✅ 2024-04-11
-- [ ] reduce jitter on flatland panel grab (?/?/6/7)=13
-- [ ] improve grab aura on flatland panels (?/?/?/5)=5
+- [x] reduce jitter on flatland panel grab (?/?/6/7)=13 ✅ 2024-07-18
+- [x] improve grab aura on flatland panels (?/?/?/5)=5 ✅ 2024-07-18
 - [ ] software keyboard for flatland (or separate) (?/?/?/6)=6
 - [ ] patch up poltergeist for showing off panel shells (5/7/2/6)=20
 - [ ] 3D tilt controller for game (probably neverball) (6/5/3/4)=15
@@ -100,20 +100,46 @@ gonna take a while:
 - [ ] spatial persistence (need monado to impl https://registry.khronos.org/OpenXR/specs/1.0/html/xrspec.html#XR_MSFT_spatial_anchor_persistence with SLAM) (10/10/10/1)=31
 
 ## cl demo
-- [ ] actually get a headset working my god
-	- [ ] lynx
-	- [ ] index
+### to prepare
+- [x] actually get a headset working my god ✅ 2024-07-18
+	- [x] lynx ✅ 2024-07-20
+	- [x] index ✅ 2024-07-18
 - [x] comet ✅ 2024-05-22
 	- [ ] (optional) eraser
-- [ ] vrchat productivity
-	- [ ] frutiger aero world
-	- [ ] working headset
-	- [ ] show off krita
+- [x] vrchat productivity ✅ 2024-07-20
+	- [x] frutiger aero world (found) ✅ 2024-07-20
+	- [x] show off blender ✅ 2024-07-20
+		- [x] my avatar ✅ 2024-07-20
+	- [x] show off unity ✅ 2024-07-20
+		- [ ] bonelab avatar mod realtime
+- [ ] seamless app launching
+	- [x] .desktop files for stardust clients ✅ 2024-08-16
+	- [x] comet ✅ 2024-07-27
+	- [ ] magnetar
+	- [ ] kiara
 - [ ] immersive stardust demo
 	- [ ] virtual camera
 		- [ ] plug into v4l2loopback or pipewire whatever is fastest to impl
 		- [ ] (optional) sync camera position to resonite to layer 
 	- [ ] show off different environments
-		- [ ] shed for passthrough like experience
-	- [ ] niri
+		- [x] shed for passthrough like experience ✅ 2024-07-20
+		- [x] niri ✅ 2024-07-21
 		- [ ] giant trading wall
+			- [ ] find some trading app?
+				- [ ] get kiara working
+### to record
+- [ ] comet
+	- [ ] (optional) eraser
+- [ ] vrchat productivity
+	- [ ] frutiger aero world (found)
+	- [ ] show off blender
+		- [ ] my avatar
+	- [ ] show off unity
+		- [ ] bonelab avatar mod realtime
+- [ ] immersive stardust demo
+	- [ ] virtual camera
+	- [ ] show off different environments
+		- [ ] shed for passthrough like experience
+		- [ ] niri
+		- [ ] giant trading wall (kiara)
+			- [ ] find some trading app?
