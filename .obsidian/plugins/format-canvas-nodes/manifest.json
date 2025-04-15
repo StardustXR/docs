@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-format-canvas-nodes",
+	"name": "Format Canvas Nodes",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Adds keyboard shortcuts for bold and italic formatting in Canvas nodes",
+	"author": "Your Name",
+	"authorUrl": "https://github.com/yourusername",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

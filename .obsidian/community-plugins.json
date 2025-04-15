@@ -5,5 +5,8 @@
   "canvas-mindmap",
   "obsidian-file-color",
   "obsidian-git",
-  "obsidian-link-embed"
+  "obsidian-link-embed",
+  "canvas-minimap",
+  "optimize-canvas-connections",
+  "obsidian-format-canvas-nodes"
 ]
